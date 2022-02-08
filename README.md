@@ -1,2 +1,2 @@
-# basicMatLab
-A repository to store basics of MATLAB
+# Data Communication
+A repository to store basics code and lab tasks of Data Communication course.
