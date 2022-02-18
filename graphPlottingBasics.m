@@ -18,7 +18,6 @@ hold on; %command for plotting many graphs in same Figure. hold off ends the hol
 % figure(x) %command for selecting Figure x
 
 plot(x,z, 'gh-','linewidth',2);
-
 %xlabel('time in seconds');
 ylabel('weight in grams and temparature in degree');
 
@@ -29,3 +28,11 @@ hold off;
 legend('temparature', 'weight'); %legend
 
 %for more type >> help plot
+
+figure;
+subplot(1,3,1); % subplot( m , n , p ) divides the current figure into an m -by- n grid and creates axes in the position specified by p .
+plot(x,z, 'gh-','linewidth',2);
+subplot(1,3,2);
+plot(x,y,'r*:','linewidth',2);
+%also in subplot we can use all things used in plot. 
+%for more type >> help subplot
