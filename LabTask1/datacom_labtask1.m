@@ -4,6 +4,9 @@
 % Data Communication Lab Task - 1
 % Performance Task for Lab Report
 % ID = AB-CDEFG-H
+clc
+clear all
+close all
 
 A=2;
 B=0;
@@ -17,7 +20,7 @@ H=1;
 K1=A+B;
 K2=G+H+2;
 
-J1=deg2rad(D+G+20); % degree to radian
+J1=deg2rad(D+G+20); % degree to radian conversion
 J2=deg2rad(30);
 % Generating time array for approx. 3 cycles
 sampling_rate=1000;
