@@ -2,11 +2,12 @@
 % ID: 20-42451-1
 
 % Data Communication Lab Task - 1
+% Title: Introduction to MATLAB
 % Performance Task for Lab Report
 % ID = AB-CDEFG-H
-clc
-clear all
-close all
+clc;
+clear all;
+close all;
 
 A=2;
 B=0;
