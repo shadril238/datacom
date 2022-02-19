@@ -1,8 +1,8 @@
 %Importance of frequency domain analysis for noise reduction
 
-clc
-clear all
-close all
+clc;
+clear all;
+close all;
 
 fs = 1000; %sampling frequency
 t = 0:1/fs:2; % time array
