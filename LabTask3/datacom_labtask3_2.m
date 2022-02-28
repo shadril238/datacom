@@ -8,7 +8,7 @@
 clc;
 clear all;
 close all;
-
+%ID= 20-42451-1
 A=2;
 B=0;
 C=4;
@@ -30,9 +30,9 @@ xq=min(xt)+(round((xt-min(xt))/delta)).*delta;
 %plotting
 plot(t,xt,'r-.', 'linewidth',1.5);
 hold on;
-plot(t,xq,'k-.', 'linewidth',1.5);
+plot(t,xq,'b-.', 'linewidth',1.5);
 
 xlabel('time');
 ylabel('amplitude');
-title('example of manual quantization method 1');
-legend('Original signal','quantized signal');
+title('manual quantization of signal x(t) (method-2)');
+legend('original signal','quantized signal');

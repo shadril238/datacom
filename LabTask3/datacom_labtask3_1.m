@@ -10,7 +10,7 @@
 clc;
 clear all;
 close all;
-
+%ID= 20-42451-1
 A=2;
 B=0;
 C=4;
@@ -21,11 +21,10 @@ G=1;
 H=1;
 
 level= 2^H + 2;
-fs=3000;
+fs=50000;
 t=0:1/fs:0.1;
 
 xt= (H+5)*cos(2*pi*((D+E+5)*10)*t) + (H+7)*sin(2*pi*((E+F+10)*10)*t);
-
 
 Nsamples=length(xt);%calculating the total number of samples
 quantised_out= zeros(1,Nsamples);
@@ -43,11 +42,11 @@ end
 
 plot(t,xt,'r-.','linewidth',1.5);
 hold on;
-plot(t, quantised_out,'k-.','linewidth',1.5);
+plot(t, quantised_out,'b-.','linewidth',1.5);
 xlabel('time');
 ylabel('amplitude');
-title('example of manual quantization method 1');
-legend('Original signal','quantized signal');
+title('manual quantization of signal x(t) (method-1)');
+legend('Original signal','Quantized signal');
 
 
 
