@@ -2,7 +2,7 @@
 % Shadril Hassan Shifat
 % ID: 20-42451-1
 
-% Data Communication Lab Task - 2
+% Data Communication Lab Task - 3
 % Title: Analog Signal quantization using MATLAB
 % Performance Task for Lab Report (Method - 1)
 % ID = AB-CDEFG-H
