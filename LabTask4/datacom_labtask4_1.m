@@ -16,5 +16,7 @@ noisy_signal = signal+noise;% noisy signal
 power_signal = sum(signal.^2)/length(signal); %signal power
 power_noise = sum(noise.^2)/length(noise); %noise power
 
-SNR = snr(signal,noise); %Calculation of SNR using snr function (in dB)
-defSNR = 10*log10(power_signal/power_noise); %Calculation of SNR following the definition (in dB)
+SNR = snr(signal,noise); %Calculation of SNR for composite signal using snr function (in dB)
+defSNR = 10*log10(power_signal/power_noise); %Calculation of SNR manually (in dB)
+regularSNR = 10^(SNR/10); % calculation of regular SNR
+
