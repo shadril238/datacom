@@ -46,13 +46,16 @@ while i:3:n
     elseif bitStream(i)==1 && bitStream(i+1)==1 && bitStream(i+2)==1
         psk=4.5*sin(2*pi*fd*t+pi+(3*pi)/4);
     end
-    %subplot(312)
     %plotting graph
     plot(t,psk);
+    title('8-PSK');
+    xlabel('time');
+    ylabel('amplitude')
     hold on;
     grid on;
-    title('8-PSK');
+    
     
     i=i+3;
     g=g+1;
 end;
+hold off;

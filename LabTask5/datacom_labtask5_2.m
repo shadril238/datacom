@@ -60,7 +60,10 @@ while i:3:n
     hold on;
     grid on;
     title('8-FSK');
+    xlabel('time');
+    ylabel('amplitude')
     
     i=i+3;
     g=g+1;
 end;
+hold off;

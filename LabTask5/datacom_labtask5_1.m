@@ -58,9 +58,12 @@ while i:3:n
     %plotting graph
     plot(t,ask);
     title('8-ASK');
+    xlabel('time');
+    ylabel('amplitude')
     hold on;
     grid on;
     
     i=i+3;
     g=g+1;
 end;
+hold off;
