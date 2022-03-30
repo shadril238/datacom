@@ -1,3 +1,9 @@
+% Shadril Hassan Shifat
+% ID: 20-42451-1
+
+% Data Communication Lab Task - 4
+% Title: Study of Digital to Analog Conversion using MATLAB
+% Performance Task for Lab Report (b)
 close all;
 clc;
 clear all;
