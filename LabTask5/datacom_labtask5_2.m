@@ -33,6 +33,7 @@ i=1;
 g=0;
 while i:3:n
     %width of any pulse 
+    i
     t=g*ts:1/fs:(g+1)*ts;
     %condition
     if bitStream(i)==0 && bitStream(i+1)==0 && bitStream(i+2)==0

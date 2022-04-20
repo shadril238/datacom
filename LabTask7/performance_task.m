@@ -145,7 +145,7 @@ bpf2 = filter(num2,den2,x);
 bpf3 = filter(num3,den3,x); 
 
 [num4, den4] = butter(5, [(fc4-fm4-6)/(fs/2),(fc4+fm4+6)/(fs/2)]);
-bpf4= filter(num4,den4,x); %Filtering is done here
+bpf4= filter(num4,den4,x); 
 
 %% Mixing
 z1 = 2*bpf1.*c1;
